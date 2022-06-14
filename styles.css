@@ -1,0 +1,273 @@
+/*BODY*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+/*HEADER*/
+
+header p {margin:0;}
+
+header section.header1 {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 40px;
+}
+
+header section.header1 ul {
+    display: flex;
+    margin: 0;
+}
+
+header section.header1 ul li {
+    padding-right: 12px;
+}
+
+header section.header2 {
+    background-color: #F0A83E;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+
+header section.header2 ul {
+    display: flex;
+
+}
+
+header section.header2 ul li {
+    padding: 10px;
+}
+
+/*MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.img {
+    background-image: url("img/imagenmainvector.svg");
+    width: 1025px;
+    height: 409px;
+    
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h2 {
+    background-color: white;
+    color: #3C2313;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+h5 {
+    color: #3C2313;
+}
+
+div {
+    padding: 110px 12px 107px;
+    text-align: center;
+}
+
+div button {
+    background-color: #F0A83E;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px 23px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #3C2313;
+}
+
+section.pDestacados {
+    margin-top: 25px;
+    text-align: center;
+}
+
+section.pDestacados nav ul {
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 6000;
+    padding: 0;
+}
+
+section.pDestacados nav ul li {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+section.productos ul {
+    display: flex;
+    padding: 0;
+}
+
+section.productos ul li {
+    background-color: #FBFAF6;
+    margin: 10px;
+    color: #3C2313;
+    text-align: center;
+}
+
+span {
+    color: #F0A83E;
+    font-weight: 500;
+}
+
+h3.contactanos {
+    color:#3C2313;
+    font-size: 25px;
+}
+
+h3.contactanos, form {
+    text-align: center;
+}
+
+section.contactanos form {
+    display: flex;
+    flex-direction: column;
+}
+
+input.formulario {
+    background-color: #3C2313;
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 15px 170px 15px 15px;
+    border-style: none;
+    margin-top: 5px;    
+    margin-bottom: 5px;
+}
+
+form input.resetear {
+    background-color: #8A8787;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 8px 22px 8px 22px;
+    border-style: none;
+}
+
+form input.enviar {
+    background-color: #F0A83E;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    padding: 8px 22px 8px 22px;
+    border-style: none;
+}
+
+/*FOOTER*/
+
+footer section.footer1 {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section.footer1 form input.correo {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    border-radius: 15px;
+    border-style: none;
+    color: #A0A0A0;
+    padding: 14px 148px 15px 8px;
+    margin: 10px 2.5px 10px 2.5px;
+}
+
+footer section.footer1 form input.suscribirse {
+    background-color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+    padding: 12px 10px;
+    margin: 13px 2.5px;
+}
+
+section.footer1 h3 {
+    display:flex;
+}
+
+section.footer1 form {
+    margin-top: 15px;
+    margin-right: 42px;
+}
+
+footer section.footer2 ul {
+    padding: 0;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+footer section.footer2 ul li {
+    display: flex;
+}
+
+footer section.footer2 {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+section.footer2 ul li p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+span.fDatos {
+    color:#8A8787;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+footer section.footer3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+}
