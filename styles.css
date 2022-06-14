@@ -62,10 +62,9 @@ main {
 }
 
 main section.img {
-    background-image: url("img/imagenmainvector.svg");
+    background-image: url("img/imagenmain.png");
     width: 1025px;
     height: 409px;
-    
 }
 
 div {
